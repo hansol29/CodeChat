@@ -1,0 +1,1664 @@
+@charset "EUC-KR";
+
+body {
+	background-color: rgb(255, 255, 255);
+	/* background-color: white; */
+	margin: 0;
+	padding: 0;
+	font-size: 0.75em;
+}
+
+#wrap {
+	width : 80%;
+	/* width: 971px; 각 웹 페이지 크기에 맞게 사이즈 조정 */
+	text-align: left;
+	margin: 20px auto;
+	/* margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto; */
+	background-color: rgb(255, 255, 255);
+	background-repeat: repeat-y;
+	min-height: 180px;
+}
+
+#wrap #mainimg {
+/* 	border: 1px solid blue;
+	background: url('../images/main_img.jpg');
+	background: rgb(0, 128, 192);
+	width: 100%;
+	height: 100px; */
+	position: relative;
+}
+
+#wrap h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 45px;
+	color: rgb(0, 0, 0);
+	margin: 20px 0;
+	font-weight: normal;
+	/*margin-left: 10%; /*김은수추가*/
+}
+
+#wrap h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	margin: 20px 0;
+	font-weight: bold;
+	/*margin-left: 10%; /* 김은수 추가 */
+}
+
+.clear {
+	clear: both;
+}
+
+#logo {
+	float: left;
+	width: 180px;
+	height: 100px;
+	margin: 5px 0 5px 40px;
+}
+
+
+/*헤더부분 메뉴*/
+nav#menu {
+	float: right;
+	margin: 30px 50px 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav#menu ul {
+	list-style: none;
+	float:left;
+}
+
+#menu ul ul {
+		
+		display: none;
+		position: absolute;
+		padding-left: 0;
+		padding-top: 10px;
+	}
+	
+
+
+nav#menu ul li {
+	display: block;
+	height: 30px;
+	float: left;
+	font-family: "Malgun Gothic";
+}
+
+
+#menu ul .mypage ul li{
+	margin: 3px 0 0 0;
+}
+
+#menu ul .mypage ul li a  {
+	display : block;
+	width : 100px;
+	text-align : left;
+	
+}
+#menu ul li:hover ul {
+	
+	display: inline-block;
+}
+nav#menu a {
+	font-size: 23px;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#menu ul ul#test{
+	width : 100px;
+	margin : 0;
+	padding : 0;
+	list-style : none;
+	text-align : center;
+}
+#menu ul ul#test li {
+	padding-top : 10px;
+	
+}
+#menu ul ul#test li a{
+	
+	display : block;
+	padding-bottom : 10px;
+	font-size : 16px;		
+}
+#menu ul ul#test li a:hover {
+	color: orange;
+}
+
+.white {
+	color: blue;
+	font-size: 23px;
+	margin: 0 20px;
+}
+
+#Section {
+	width: 80%;
+	
+	text-align: center;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+
+#bestProductContainer {
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+	border: 1px solie black;
+	margin-bottom: 100px;
+}
+
+#bestProductContainer #bestProduct/* , .userBoard, .companyBoard */ {
+	width: 48%;
+	/* float: left; */
+	padding: 10px;
+}
+
+#bestProductContainer #bestProduct table/* , .userBoard table, .companyBoard table */ {
+	 width: 100%;
+	 height: 400px;
+	 background: rgb(209,243,121, 0.1);
+	 float: left;
+	 margin-bottom: 50px;
+	 border-collapse: collapse;
+	 border: 1px solid #008000;
+}
+
+#bestProductContainer #bestProduct table tr {
+	border-bottom: 1px solid #008000
+}
+#bestProductContainer #bestProduct table th {
+	background-color : rgb(0, 128, 0, 0.3);
+	font-size : 16px;
+	height : 22px;
+	padding : 10px;
+	padding-right : 5px;
+}
+#bestProductContainer #bestProduct table td {
+	font-size : 16px;
+	padding-top:0px;
+	padding-bottom:0;
+	padding-left : 5px;
+	
+}
+#bestProductContainer #bestProduct table td b{
+	font-size : 18px;
+	
+	
+}
+
+#bestProductContainer div#bestProduct:first-child {
+	float: left;
+}
+#bestProductContainer #bestProduct:last-child {
+	float: right;
+}
+
+#bestProductContainer #bestProduct table caption/* , .userBoard table caption, .companyBoard table caption */ {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/* #bestProduct {
+	border: solid 1px #FFFFFF;
+	border-radius: 10px;
+	width: 900px;
+	min-height: 250px;
+	background: rgb(0, 128, 192, 0.1);
+	padding: 10px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+} */
+
+/* #bestProduct */ table td {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+
+/* #bestProduct table th:last-child, td:last-child {
+	background-color: orange;
+	width : 500px;
+} */
+
+/* #item {
+	width: 400px;
+	float: left;
+	margin: 0 13px;
+	text-align: center;
+} */
+
+nav#buttons {
+	float: right;
+	margin: 20px 0 10px 20px;
+}
+nav#buttons #btn {
+	width : 60px;		
+	height: 30px;
+	font-size: 16px;	
+	margin-bottom: 20px;	
+	border : 1px solid rgb(5, 68, 110, 0.5);
+	background-color: rgb(5, 68, 110, 0.1);	
+}
+nav#buttons #submit{
+	width : 60px;		
+	height: 30px;
+	font-size: 16px;	
+	margin-bottom: 20px;	
+	color : #E6ECF0;
+	border : 1px solid rgb(5, 68, 110);
+	background-color: rgb(5, 68, 110);
+	font-weight : bold;
+	padding : 2px;
+}
+
+
+.board {
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+	text-align: center;
+	padding: 5px;
+}
+
+.board th {
+	font-size: 16px;
+	text-align: center;
+}
+
+.board tr,th,td {
+	
+	text-align: left;
+	padding-right: 5px;
+}
+
+
+table#List {
+	border-collapse: seperate; 
+	border-top: 2px solid rgb(0, 64, 128);
+	border-bottom : 2px solid rgb(0, 64, 128);
+	width: 100%; /* 전체 테이블 길이 설정 */
+	border-spacing : 0 10px;
+	text-align: center;
+}
+
+
+
+table#List th {
+	border-bottom: 1px dotted #333;
+	border-color : rgb(0, 64, 128, 0.5);
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 2px;
+}
+
+table#List td {
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+
+
+
+/*자유게시판, QNA게시판, MyWrite*/
+
+
+table#List_1 {
+	border-collapse: collapse; 
+	border-top: 2px solid rgb(0, 64, 128);
+	border-bottom : 2px solid rgb(0, 64, 128);
+	width: 100%; /* 전체 테이블 길이 설정 */
+
+	text-align: center;
+}
+
+table#List_1 tr{
+	height : 40px;
+}
+
+
+
+table#List_1 th {
+	background-color : rgb(0, 64, 128, 0.4); 
+	border-bottom: 1px dotted #333;
+	border-color : rgb(0, 64, 128, 0.5);
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 2px;
+	
+}
+
+table#List_1 td {
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	margin : 10px;
+}
+
+
+nav#buttons {
+	float: right;
+	margin: 10px 20px 10px 20px;
+}
+nav#buttons input{ 
+	padding: 5px;
+	margin : 5px;
+}
+
+.button {
+	padding : 20px;
+	margin: 10px 10px 10px 20px;
+	text-align : center;
+	
+}
+
+.button {
+	text-align: center;
+	margin: 20px 0 10px 20px;
+}
+
+.button input{
+	margin : 5px;
+	padding:5px;
+}
+
+.button input#submit{
+	width: 7%;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	color : #E6ECF0;
+	border : 1px solid rgb(5, 68, 110);
+	background-color: rgb(5, 68, 110);
+	font-weight : bold;
+}
+.button input#btn{
+	width: 7%;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	border : 1px solid rgb(5, 68, 110, 0.5);
+	background-color: rgb(5, 68, 110, 0.3);
+	font-weight : bold;
+}
+
+#button{
+
+}
+
+table#board {
+	width:60%;
+	height:60%;
+	
+	border-radius : 10px;
+	margin-left: 20%;
+	margin-right: auto;
+	padding: 10px;
+}
+
+table#board th { 
+	text-align : right;
+}
+
+table#board input{
+	text-align : left;
+	width : 58%;
+	height : 30px;
+	background-color : rgb(255, 255, 240, 0.5);
+	border : 1px solid gray;
+	border-radius : 5px;
+}
+
+table#board table#secret{
+	margin:500px;
+}
+table#board table#secret tr td b{
+	font-size : 20px;
+}
+
+/*boardOne 디자인 */
+table#board_o {
+	border-collapse : seperate;
+	width:600px;
+	height:400px;
+	border : 2px solid gray;
+	border-radius : 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color : rgb(192,192,192,0.1);
+}
+
+table#board_o th{
+	border-collapse : collapse;
+	font-size : 16px;
+	padding : 10px;
+}
+
+#board_o #board_ td{
+	
+	padding : 10px;
+	text-align : center;
+	color : darkgray;
+	font-size : 16px;
+	border : 1px solid gray;
+	font-weight : bold;
+	
+}
+
+#board #board_c tr{
+	height : 50px;
+	
+}
+
+#board_o tr#board_c td {
+	word-break : keep-all;
+	white-space : pre-line;
+	font-size : 16px;
+	padding:5px;
+	text-align: left;
+	padding-right: 5px;
+}
+/*boardOne 디자인 */
+
+
+div#companyPage {
+	margin-top : 10px;	
+	margin-left : 43%;
+	margin-bottom : 10px;
+}
+
+/* div#page {
+	margin-top : 10px;	
+	margin-left : 40%;	
+	margin-top : 10px;
+	margin-bottom : 10px;
+	
+} */
+div#page {
+	margin-top : 10px;	
+	margin-left : 35%;	
+	margin-top : 10px;
+	margin-bottom : 10px;
+	
+}
+
+div#page table, div#companyPage table {
+	border-collapse : collapse;
+	border-radius : 10px;
+	background-color : rgb(0, 64, 128, 0.1);
+
+	
+}
+
+
+div#page tr, div#companyPage tr {
+	margin : 0 auto;	
+	padding-left : 20px;
+	padding-right : 20px;
+	
+	
+}	
+
+div#page tr td, div#companyPage tr td {
+	padding : 5px;
+	width : 20px;
+	font-weight : bold;
+	font-family : Tahoma;
+	font-size : 15px;
+	
+
+}
+
+div#page tr td a, div#companyPage tr td a{
+	color : gray;
+	text-decoration : none;	
+}
+
+div#search {
+	
+	float:center;
+}
+
+div#search table{
+	width : 100%;
+}
+
+div#search tr> td {
+	padding-right : 10px;
+}
+div#search table tr td #search_condition{
+	margin-left : 5px;
+	height : 25px;
+}
+
+div#search table tr td #submit{
+	width : 60px;		
+	height: 30px;
+	font-size: 16px;	
+	
+	margin-bottom: 20px;	
+	color : #E6ECF0;
+	border : 1px solid rgb(5, 68, 110);
+	background-color: rgb(5, 68, 110);
+	font-weight : bold;
+	padding : 2px;
+}
+
+
+
+footer {
+	width: 80%;
+	margin: 0 auto;
+	height: 10%;
+	/* background-size: 80px;
+	background-image: url(../images/logo_.png);
+	background-repeat: no-repeat;
+	background-position: 500px;; */
+}
+
+footer #copy {
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+}
+
+#main_img {
+	text-align: center;
+}
+
+#main_img img {
+	margin: 0 0 0 0;
+	width: 971px;
+	height: 212px;
+}
+
+div#front {
+	margin: 5px 0 5px 0px;
+	
+}
+
+div#reply {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+table#replytable {
+	display: inline-block;
+	border: 1px solid rgb(0, 128, 192);
+	width: 700px;
+	height: 400px;
+	padding: 20px;
+}
+
+table#replytable tr, th, td {
+	font-size: 15px;
+	text-align: center;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+/*boardReplyView.jsp*/
+table#board_r {
+	width:70%;
+	height:60%;
+	margin : 0 auto;
+	border-radius : 10px;
+
+	padding: 10px;
+}
+
+table#board_r th { 
+	text-align : right;
+	color : navy;
+}
+
+table#board_r tr td {
+	text-align : left;
+}
+table#board_r input{
+	text-align : left;
+	width : 58%;
+	height : 30px;
+	background-color : rgb(255, 255, 240, 0.5);
+	border : 1px solid gray;
+	border-radius : 5px;
+}
+
+
+
+
+#qnawrite {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#qnawrite label {
+	font-weight: bold;
+}
+
+#qnawrite label, input {
+	margin-bottom: 10px;
+	
+}
+/*qneOne.jsp*/
+table#board_qo {
+	border-collapse : seperate;
+	width:600px;
+	height:400px;
+	border : 2px solid #000040;
+	border-radius : 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color : rgb(192,192,192,0.1);
+	
+}
+table#board_qo tr{
+	height : 40px;
+}
+
+table#board_qo th{
+	border-collapse : collapse;
+	width : 60px;
+	text-align : right;
+	font-size : 16px;
+	padding-top : 10px;
+	padding-right : 20px;
+	color : navy;
+	font-weight : 900;
+	
+	
+}
+
+table#board_qo td{	
+	padding : 10px;
+	text-align : center;
+	color : #585858;
+	font-size : 16px;
+	font-weight : bold;
+	border : 1px dashed rgb(0,0,0,0.5);
+	background-color : rgb(68,68,255,0.015);
+}
+
+#board_qo tr#board_c td {
+	word-break : keep-all;
+	white-space : pre-line;
+	font-size : 16px;
+	padding:10px;
+	
+	text-align: left;
+	padding-right: 5px;
+	color : black;
+	font-weight : 100;
+}
+
+
+/* 메인 화면 자유게시판, 채용공고 처리 */
+.boardWrapParent {
+	clear: both;
+	position: relative;
+	margin-top: 10%;
+}
+
+.boardWrap {
+	display: block;
+	width: 100%;
+	height: 700px;
+	border: 1px solid #000000;
+	background-repeat: none;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#userBoardWrap {
+	background-image: url("../images/computer.jpg");
+	position: absolute;
+	left : 0;
+	bottom: 0;
+	height: 500px;
+	margin-top: 500px;
+	/* border: 1px solid #ff7f00; */
+	/* margin-bottom: 1px; */
+}
+
+#companyBoardWrap {
+	background-image: url("../images/meeting.png");
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 500px;
+	/* border: 1px solid blue; */
+}
+
+#userBoardWrap > h1, #companyBoardWrap > h1 {
+	margin: 0 auto;
+	font-size: 50px;
+	color: white;
+	line-height: 400px;
+}
+
+#userBoardWrap:hover, #companyBoardWrap:hover {
+	filter: brightness(50%);
+}
+
+.half {
+	width: 50%;
+	transition-duration: 2s;
+	background-repeat: none;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.boardWrap .bestProduct {
+	float: right;
+	margin-left: 500px;
+}
+
+.userBoard {
+	float: right;
+	/* background: rgb(251, 206, 117, 0.1); 여기*/
+	/* border: 1px solid #ff7f00; */
+}
+.companyBoard {
+	clear: both;
+	float: left;
+	/* background: rgb(0, 128, 192, 0.1); 여기 */
+	/* border: 1px solid blue; */
+}
+
+.userBoard, .companyBoard {
+	width: 50%;
+	height: 500px;
+}
+
+.userBoard table, .companyBoard table {
+	 width: 100%;
+	 height: 450px;
+	/*  background: rgb(0, 128, 192, 0.1); */
+	 border-collapse: collapse;
+}
+/* .userBoard table tr {
+	border-top: 1px solid black;
+	border-top: 1px solid #ff7f00;
+} */
+
+.userBoard table th, .companyBoard table th {
+	 font-size : 16px;
+	 height : 40px;
+	 background-color : rgb(52, 152, 219, 0.1);
+	
+}
+
+.companyBoard table .tr, .userBoard table .tr {
+	border-top: 1px solid #3498db;
+	/* border-top: 1px solid blue; */
+}
+
+.companyBoard table tr td a {
+	color: #323232;
+	font-size : 16px;
+}
+
+.userBoard table tr td a {
+	color: #323232;
+	font-size : 16px;
+}
+
+.companyBoard table tr td b {
+	color: #323232;
+	font-size : 18px;
+}
+
+.userBoard table tr td b {
+	color: #323232;
+	font-size : 18px;
+}
+
+/* 메인화면1에는 추천강좌가 있다 */
+.video{
+   margin: 0 auto;
+   text-align:center;
+}
+
+/* 메인 화면2 */
+.centerImg {
+	width: 100%;
+	text-align: center;
+}
+
+.video_rollwrap {
+    width: 720px;
+    height: 314.5px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video_rollwrap > button {
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    top: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.video_rollwrap > button.roll_left {
+    background: url("../images/btn_left.png") no-repeat center center;
+    background-size: 30px;
+    left: 0;
+}
+
+.video_rollwrap > button.roll_right {
+    background: url("../images/btn_right.png") no-repeat center center;
+    background-size: 30px;
+    right: 0;
+}
+
+
+
+
+
+/*login/ join*/
+
+div#login{
+	width : 80%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	background-repeat: repeat-y;
+	min-height: 150px;
+}
+div#login h2{
+	font-size : 25px;
+}
+div#login table{
+	width : 100%;
+	margin : 0 auto;
+	border-collapse : collapse;
+}
+div#login table tr td input#login_c{
+	width : 40%;
+	height:30px;
+	padding : 5px;
+	margin-bottom:0px;
+	font-size : 15px;
+	background-color: rgb(128, 128, 128, 0.1);
+	border : 0.1em dotted #004d71;
+	border-radius :5px;
+}
+
+div#login table tr td div#login_button input{
+	width : 20%;
+	height : 30px;
+	background-color: rgb(0, 64, 128, 0.35);
+	border : none;
+	border-radius : 5px;
+	font-size : 15px;
+	font-weight : bold;
+	margin-top : 5px;
+	
+}
+
+div#login table tr td input.dup{
+	width : 70px;
+	height :30px;
+	background-color : rgb(0, 64, 128, 0.35);
+	border : none;
+	border-radius : 5px;
+	font-weight : bold;
+	
+	
+}
+/*login*/
+
+/*contract*/
+.wrapContent {
+	width : 971px;
+	margin: 0 auto;
+}
+
+.intro {
+	width: 712px;
+	display: block;
+	margin: 0 auto;
+}
+
+.submit {
+	font-size: 20px;
+	border : none;
+	box-shadow: 1px 1px 1px 1px gray;
+	border-radius: 10px;
+	height: 40px;
+	margin-bottom: 20px;
+	background-color: rgb(0 56 112 / 73%);
+	width: 70px;
+	margin-left: 30px;
+	cursor: pointer;
+	color : #ffffe3;
+}
+
+#contract_btn{
+	font-weight : bold;
+	font-size : 17px;
+}
+
+
+/*idCheck*/
+
+div#idcheck h1{
+	font-family : "Malgun Gothic";
+	font-weight : bold;
+	font-size : 30px;
+	color: navy;
+}
+div#idcheck label{
+	font-size : 20px;
+	margin-right : 15px;	
+	font-weight : bold;
+}
+
+div#idcheck input {
+	height : 25px;
+}
+
+
+div#idcheck #idchk_btn{
+	height : 25px;
+	border : 1px solid black;
+	background-color : rgb(0,0,0,0.5);
+	color : white;
+}
+
+
+/*채용공고 게시판 리스트*/
+#category {
+		display: flex;
+	}
+	
+	#category fieldset {
+		flex: auto;
+		width : 100%;
+		height: 20%;
+		padding : 1%;
+		margin-bottom : 3%;	
+		
+	}
+	#category fieldset b{
+		font-size : 20px;
+	}
+	
+	span, .page {
+		font-size: 15px;
+	}
+	
+	
+	section {
+		width : 100%;
+		margin: 0 auto;
+	}
+	
+	form {
+		width: 100%;
+	}
+	.comList{
+		min-height : 800px;
+		width : 100%;
+		
+		padding-top : 0px;
+		padding-left : 3px;
+		
+	}
+	.comList div#box {
+		position : relative;
+		width : 47%;
+		height : 300px;
+		top:250px;
+		left:25%;
+
+		margin-right : 20px;
+		margin-bottom : 20px;
+		transform:translate(-50%,-50%);
+		border : 2px solid gray;
+		background-color : rgb(128, 128, 128, 0.1);
+		float : left;	
+		
+	}
+	.comList div#box div{
+		width : 100%;
+		height : 200px;
+		float : left;
+		margin :5px;
+		box-sizing : border-box;
+		padding : 8px;
+		
+		
+	}
+
+	
+	#box > fieldset:nth-child(2){
+		clear : both;
+	}
+	
+	.select {
+		width: 25%;
+		margin-left: 40%;
+		height: 40px;
+		font-size: 20px;
+		margin-bottom: 20px;
+		border-radius:10px;
+		border : 1px solid rgb(5, 68, 110, 0.5);
+		background-color: rgb(5, 68, 110, 0.3);
+	}
+	
+	label {
+		font-size: 20px;
+	}	
+	
+	a.insert {
+		border-radius : 5px;
+		background-color : ivory;
+		font-size: 30px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 30px;
+		color: rgb(0, 128, 192);
+		margin: 20px 0;
+		font-weight: normal;	
+	}
+	
+	.unchkBtn {
+		background-color: Transparent;
+		font-size: 20px;
+		color: rgb(0, 128, 192);
+		border: none;
+		cursor: pointer;
+		
+	}
+	
+	.comNm {
+		font-size: 23px;
+		color : gray;
+		
+	}
+	.comNm_T {
+		font-size: 20px;
+		font-weight : bold;
+		color : black;
+	}
+	
+	.title {
+		position: relative;
+		height: 200px;
+		padding-left : 0;
+	}
+	
+	.ellipsis {
+		position: absolute;
+		width: auto;
+		height: 180px;
+		font-size: 20px;
+	    white-space: pre-line;
+	    overflow: hidden;
+	    margin-right: 0;
+	}
+	
+	.right {
+		position: absolute;
+		bottom : 2%;
+		right: 2%;
+	}
+	
+	.comInfo {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	div.comInfo span{
+		font-size : 18px;
+	}
+	
+/*companyBoardDetail*/
+
+article#companyBoard_d {
+	width: 100%;
+	
+	border: 1px solid rgb(0, 0, 0, 0.5);
+	margin: 0 auto;
+	padding : 10px;
+	
+	margin-bottom : 10px;
+	background-color : rgb(232,232,232,0.2); 
+	
+}
+article#companyBoard_d div#condition_container{
+	margin-left : 50px;
+	display : inline-block;
+	margin-bottom : 20px;
+	
+}
+
+article#companyBoard_d div#condition_container div#condition{
+	float: left;
+	width : 400px;
+	height : 200px;
+	border : 1px dashed black;
+	margin-left : 20px;
+	background-color : rgb(0,0,160,0.03);
+}
+article#companyBoard_d div#condition_container div#carrer{
+	float: left;
+	width : 400px;
+	height : 200px;
+	margin-left : 20px;
+	border: 1px dashed black;
+	background-color : rgb(0,0,160,0.03);
+}
+	
+article#companyBoard_d label {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: auto;
+	font-size: 30px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight: bold;	
+	padding : 10px;
+	padding-top : 0;
+	color : #00006f;
+}
+article#companyBoard_d label#sub {
+	display: inline;
+	/* border: 1px solid red; */
+	width: auto;
+	font-size: 25px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight: 400;	
+	padding : 10px;
+	color : black;
+}
+
+
+article#companyBoard_d p {
+	display: inline;
+	/* border: 3px solid blue; */
+	font-size: 25px;
+	width: 700px;
+	font-weight : 150;
+	height : auto;
+}
+
+
+
+div#companyboard_d_b button#eventBtn {
+	width: 5%;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	color : #E6ECF0;
+	border : 1px solid rgb(5, 68, 110);
+	background-color: rgb(5, 68, 110);
+	font-weight : bold;
+}
+
+div#companyboard_d_b button#backBtn {
+	width: 5%;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	border : 1px solid rgb(5, 68, 110, 0.5);
+	background-color: rgb(5, 68, 110, 0.3);
+	font-weight : bold;
+	
+}
+
+div#companyboard_d_b button#toListBtn {
+	width: 5%;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	border : 1px solid rgb(5, 68, 110, 0.5);
+	background-color: rgb(5, 68, 110, 0.3);
+	font-weight : bold;
+	
+}
+
+div.verAlign{
+	margin-left : 50px;
+}
+
+.verAlign, .verAlign > label {
+ 	display:inline-block;
+	vertical-align: top;
+}
+
+.verAlign > label {
+	padding-top: 35px;
+}
+.verAlign div#content{
+	padding-left : 15px;
+	
+	word-break : keep-all;
+}
+.verAlign div#content p{
+	
+	font-size : 20px;
+	
+}
+
+
+/*companyBoardWrite*/
+	article#companyBoard_w {
+		width: 80%;
+		border: 1px solid black;
+		padding: 10px;
+		margin:0 auto 30px auto;
+		background-color : rgb(230,236,240,0.2);
+	}	
+
+	article#companyBoard_w label.title {
+		display: inline-block;
+		width: 130px;
+		height : 50px;
+		font-size: 25px;
+		margin-right: 20px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	/*article#companyBoard_w .field * {
+		vertical-align: middle;
+	}*/
+
+	
+	article#companyBoard_w input {
+		background-color : rgb(237,237,237,0.2);
+		border:1px solid gray;
+		height : 30px;
+		font-size: 20px;
+		
+	}
+	article#companyBoard_w label{
+		font-size : 20px;
+	}
+
+	
+	article#companyBoard_w textarea {
+		font-size: 20px;
+		font-family : "Malgun Gothic";
+		background-color : rgb(237,237,237,0.2);
+		border-radius : 5px;
+	}
+	
+
+
+	div#companyBoard_button {
+		width : 100%
+	}
+	
+	
+	div#companyBoard_button button#btn {
+		width: 10%;		
+		height: 40px;
+		font-size: 16px;
+		margin-bottom: 20px;
+		border-radius:10px;
+		border : 1px solid rgb(5, 68, 110, 0.5);
+		background-color: rgb(5, 68, 110, 0.3);
+		font-weight : bold;
+		
+	}
+	div#companyBoard_button input#btn {
+		width: 10%;		
+		height: 40px;
+		font-size: 16px;
+		margin-bottom: 20px;
+		border-radius:10px;
+		color : #E6ECF0;
+		border : 1px solid rgb(5, 68, 110);
+		background-color: rgb(5, 68, 110);
+		font-weight : bold;
+	}
+	
+
+	
+	article#companyBoard_w .verAlign, .verAlign > label {
+	 	display:inline-block;
+		vertical-align: top;
+	}
+	
+	article#companyBoard_w .verAlign > label {
+		padding-top: 35px;
+	}
+
+
+	
+	
+/*userMyPage*/
+fieldset#user_mypage, fieldset#company_mypage {
+		border : 1px solid rgb(0,0,0,0.5);
+		width: 50%;
+		margin: 0 auto;
+		background-color : rgb(252, 237, 184,0.1);
+		
+	}
+	
+fieldset#user_mypage legend, fieldset#company_mypage legend {
+		font-size: 30px;
+		font-weight : 600;
+		color : darkblue;
+		margin-bottom: 10px;
+		text-align: center;
+}
+
+fieldset#user_mypage div#mypage_info, fieldset#company_mypage div#mypage_info{
+	margin-left : 80px;
+	
+}
+
+
+
+
+fieldset#user_mypage .label, fieldset#company_mypage .label {
+	width : 100px;
+	padding-right : 0;
+	text-align : right;
+	display: inline-block;
+	font-size: 19px;
+	font-weight : bold;
+	margin-right: 10px;
+}
+fieldset#user_mypage .label_c, fieldset#company_mypage .label_c{
+	width : 250px;
+	font-size : 19px;
+	color : #4b4b4b;
+}
+
+
+.mypage_button {
+	text-align: center;
+	margin: 20px 0 10px 20px;
+}
+
+.mypage_button input{
+	margin : 5px;
+	padding:5px;
+}
+
+.mypage_button input#submit{
+	width: 120px;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	color : #E6ECF0;
+	border : 1px solid rgb(5, 68, 110);
+	background-color: rgb(5, 68, 110);
+	font-weight : bold;
+}
+.mypage_button input#btn{
+	width: 50px;		
+	height: 40px;
+	font-size: 16px;
+	margin-right : 10px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	border : 1px solid rgb(5, 68, 110, 0.5);
+	background-color: rgb(5, 68, 110, 0.3);
+	font-weight : bold;
+}
+
+
+/*updateUserMypage2.jsp*/
+
+fieldset#user_mypage input, fieldset#company_mypage input{
+	height : 30px;
+	font-size : 18px;
+}
+
+/*myVideo.jsp*/
+
+table#videoList{
+	width : 100%;	
+	border-collapse : seperate;
+	
+	
+}
+table#videoList tr td{
+	margin : 0 auto;
+	
+}	
+table#videoList table#videoList_in{
+	width : 100%;
+	height : 240px;
+	border-collapse : collapse;
+	border : 1px solid black;
+}
+table#videoList_in th{
+	text-align : center;
+	width : 100px;
+	border : 1px solid black;
+	font-size : 20px;
+	padding-top : 5px;
+	padding-left : 5px;
+}
+table#videoList_in tr td{
+	padding-left : 20px;
+	text-align : left;
+	font-size : 18px;
+}
+
+
+/*videoList.jsp*/
+
+table#videoList tr td table#video_list{
+	width : 100%;
+	height : 50%;
+	padding : 10px;
+	
+}
+
+table#videoList tr td table#video_list tr th{
+	color : navy;
+	text-align : right;
+}
+table#videoList tr td table#video_list tr td{
+	font-size : 16px;
+	text-align : left;
+	padding : 0;
+}
+table#videoList tr td table#video_list tr td input{
+	border : 1px solid rgb(0,0,0,0.3);
+	font-size : 16px;
+	height : 27px;	
+	background-color : rgb(255,255,240, 0.4);
+}
+table#videoList tr td table#video_list tr td textarea{
+	border : none;
+	width : 80%;
+	height : 50px;
+	background-color : rgb(0,0,77,0.05);
+}
+
+table#videoList button#submit{
+	margin-top : 5px;
+	padding : 5px;
+	border-radius : 5px;
+	border : none;
+	background-color : rgb(0,0,121,0.5);
+	color : #fdf9ec;
+	font-weight : bold;
+}
+
+table#videoList button#btn{
+	margin-top : 5px;
+	margin-right : 10px;
+	padding : 5px;
+	border-radius : 5px;
+	border : none;
+	background-color : rgb(0,0,121,0.5);
+	color : #fdf9ec;
+	font-weight : bold;
+}
+
+table#videoList tr td table#video_list tr#cash td input{
+	margin-top : 5px;
+	width : 40px;
+	height :30px;
+	padding : 3px;
+	border-radius : 5px;
+	border : none;
+	background-color : rgb(0,0,121,0.5);
+	color : #fdf9ec;
+	font-weight : bold;	
+}
+
+table#videoList tr td table#video_list tr td textarea{
+	font-family : "Malgun Gothic";
+}
+
+
+/*videoWrite.jsp*/
+table#videoList_w{
+	border : 1px solid rgb(0,0,0,0.3);
+	border-radius : 10px;
+	margin : 0 auto;
+	padding : 10px;
+	width : 60%;
+	height : 100%;
+	background-color : rgb(128, 128, 128,0.1);
+}
+table#videoList_w tr th{
+	text-align : right;
+	font-size :  20px;
+	color : #000055;
+	width : 20%;
+}
+table#videoList_w tr td{
+	text-align : left;
+	font-size : 18px;
+}
+table#videoList_w tr td input{
+	width : 50%;
+	height : 30px;	
+	font-size : 16px;
+}
+table#videoList_w tr td textarea{
+	word-break : keep-all;
+	white-space : pre-line;
+	font-family : "Malgun Gothic";
+}
+
+/*videoUpdate.jsp*/
+table#videoList table#videoList_u{
+	border : 1px solid rgb(0,0,0,0.3);
+	border-radius : 10px;
+	margin : 0 auto;
+	width : 80%;
+	height : 100%;
+	background-color : rgb(128, 128, 128,0.1);
+}
+table#videoList table#videoList_u tr th{
+	text-align : right;
+	font-size :  20px;
+	color : #000055;
+	width : 20%;
+}
+table#videoList table#videoList_u tr td{
+	text-align : left;
+	font-size : 18px;
+}
+table#videoList table#videoList_u tr td input{
+	width : 50%;
+	height : 30px;	
+	
+}
+
+table#videoList tr td table#videoList_u tr td textarea{
+	border : 1px solid rgb(0,0,0,0.3);
+	width : 80%;
+	height : 50px;
+	background-color : rgb(0,0,77,0.05);
+	
+}
+
+
+/*videoDelete.jsp*/
+table#videoList tr td table#video_list_d{
+	width : 100%;
+	height : 200px;
+	
+	
+	
+}
+
+table#videoList tr td table#video_list_d tr th{
+	width : 100px;
+	color : navy;
+	text-align : right;
+	
+}
+table#videoList tr td table#video_list_d tr{
+	margin : 10px;
+	height : 30px;
+	
+}
+table#videoList tr td table#video_list_d tr td{
+	font-size : 16px;
+	text-align : left;
+	padding : 0;
+	border : 1px solid rgb(0,0,0,0.3);
+	font-size : 16px;
+	height : 27px;	
+	background-color : rgb(255,255,240, 0.4);
+	margin-bottom : 20px;
+}
+
+table#videoList tr td table#video_list_d tr td textarea{
+	border : none;
+	width : 80%;
+	height : 50px;
+	background-color : rgb(0,0,77,0.05);
+}
+
